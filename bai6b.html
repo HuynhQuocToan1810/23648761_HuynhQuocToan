@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+
+    <style>
+        body {
+            font-family: "Times New Roman";
+        }
+
+        .container {
+            width: 700px;
+            border: 1px solid #aaa;
+            padding: 10px;
+        }
+
+        fieldset {
+            margin-top: 10px;
+        }
+
+        textarea {
+            width: 500px;
+            height: 120px;
+        }
+
+        .send {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Contact Us</h1>
+
+    <form>
+
+        <fieldset>
+
+            <legend>Your message:</legend>
+
+            <table>
+
+                <tr>
+                    <td>To</td>
+                    <td>
+                        <input type="text"
+                               value="Example Cafe">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Your email</td>
+                    <td>
+                        <input type="email">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Message</td>
+                    <td>
+                        <textarea></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Attach File</td>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+
+            </table>
+
+        </fieldset>
+
+
+        <fieldset>
+
+            <legend>How you found us:</legend>
+
+            <table>
+
+                <tr>
+                    <td>
+                        How did you hear of us
+                    </td>
+
+                    <td>
+                        <select>
+                            <option>Google</option>
+                            <option>Facebook</option>
+                            <option>Friends</option>
+                            <option>Other</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Newsletter</td>
+
+                    <td>
+                        <input type="checkbox" checked>
+                        Ensure this box is checked if you would like
+                        to receive email updates
+                    </td>
+                </tr>
+
+            </table>
+
+        </fieldset>
+
+        <input class="send"
+               type="submit"
+               value="Send message">
+
+    </form>
+
+</div>
+
+</body>
+</html>
